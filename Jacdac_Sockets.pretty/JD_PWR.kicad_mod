@@ -3,10 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "C**"
+	(property "Reference" "GS**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "55a8ccb1-c757-479d-9a7a-fe268de82113")
 		(effects
 			(font
