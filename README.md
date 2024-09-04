@@ -14,12 +14,12 @@ create your own MakeDevice virtual modules.
 
 #### Jacdac power Gerber socket
 
-![Gerber socket symbol for Jacdac power bus](/svg/JD_PWR_symbol.svg)
+![Gerber socket symbol for Jacdac power bus](/svg/JD_PWR_symbol.svg){:height="400px" width="400px"}
 
 #### Jacdac ground Gerber socket
 
-![Gerber socket symbol for Jacdac ground](/svg/GND_symbol.svg)
+![Gerber socket symbol for Jacdac ground](/svg/GND_symbol.svg){:height="400px" width="400px"}
 
 #### Jacdac data Gerber socket
 
-![Gerber socket symbol for Jacdac ground](/svg/JD_DATA_symbol.svg)
+![Gerber socket symbol for Jacdac ground](/svg/JD_DATA_symbol.svg){:height="400px" width="400px"}
