@@ -121,7 +121,7 @@
 			)
 		)
 	)
-	(pad "GND" smd circle
+	(pad "1" smd circle
 		(at 0 0)
 		(size 0.1 0.1)
 		(layers "F.Cu")
