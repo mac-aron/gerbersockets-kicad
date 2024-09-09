@@ -98,16 +98,15 @@
 		(layer "F.Fab")
 		(uuid "abb3b474-f79a-4a3c-8c71-0552790ff959")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 0.065 0)
+	(fp_line
+		(start 0 0)
+		(end 0 0)
 		(stroke
-			(width 0)
-			(type solid)
+			(width 0.13)
+			(type default)
 		)
-		(fill solid)
 		(layer "User.1")
-		(uuid "0e7c72f5-17d5-47ac-8920-325b1dc454b6")
+		(uuid "38fce679-d02c-4e7c-90ee-3421e45f740d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.2 0)
