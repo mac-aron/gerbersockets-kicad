@@ -1,25 +1,7 @@
-## KiCad library for MakeDevice virtual modules
+## KiCad library for `GerberSockets` & virtual modules (VMs)
 
-This KiCad library contains both symbols and footprints for the virtual Jacdac
-modules `Gerber sockets`.
+This repository contains KiCad libraries with both symbols and footprints for the various types of devices/annotations that can be done using `GerberSockets`.
 
-`Gerber sockets` are the endpoints, at which the MakeDevice application will
-route the electrical traces. As of now, there are only `Jacdac bus` sockets,
-but in the future work we will follow with `Jacdac prog` sockets, as well.
+`GerberSockets` are the endpoints, at which an application can extract information about the design, and perform actions with that data. For example, the MakeDevice project will find the location of the Jacdac nets (`JD_PWR`, `JD_DATA`, and `GND`) and route the electrical traces between all modules on a circuit baord. 
 
-A guide will follow soon to describe how to use this library, and how to
-create your own MakeDevice virtual modules.
-
-## KiCad symbol previews
-
-#### Jacdac power Gerber socket
-
-![Gerber socket symbol for Jacdac power bus](/svg/JD_PWR_symbol.svg)
-
-#### Jacdac ground Gerber socket
-
-![Gerber socket symbol for Jacdac ground](/svg/GND_symbol.svg)
-
-#### Jacdac data Gerber socket
-
-![Gerber socket symbol for Jacdac ground](/svg/JD_DATA_symbol.svg)
+A guide will follow soon to describe how to use this library, and how to create your own annotations using `GerberSockets`
