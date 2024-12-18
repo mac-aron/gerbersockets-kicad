@@ -14,12 +14,13 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "JND"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jacdac_Sockets:GND"
@@ -104,12 +105,13 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "JD_DATA"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jacdac_Sockets:JD_DATA"
@@ -194,12 +196,13 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "JD_PWR"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jacdac_Sockets:JD_PWR"
