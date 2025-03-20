@@ -330,7 +330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for Jacdac power bus"
+		(property "Description" "Gerber socket for SWCLK line"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -426,7 +426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for Jacdac power bus"
+		(property "Description" "Gerber socket for SWDIO line [flasher]"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -522,7 +522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for Jacdac power bus"
+		(property "Description" "Gerber socket for SWDIO line [target]"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -618,7 +618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for Jacdac power bus"
+		(property "Description" "Gerber socket for USB data negative"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -714,7 +714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for Jacdac power bus"
+		(property "Description" "Gerber socket for USB data positive"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -810,7 +810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for Jacdac power bus"
+		(property "Description" "Gerber socket for reset line"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
