@@ -1,8 +1,9 @@
-(footprint "GND"
-	(version 20240108)
+(footprint "SWDIO~^"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "GerberSocket for SWDIO~^ net (0.16 mm diameter) [target]")
 	(property "Reference" "GS**"
 		(at 0 -2 0)
 		(unlocked yes)
@@ -16,24 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "GND"
+	(property "Value" "SWDIO~^"
 		(at 0 3.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cdf8b040-1968-45d0-802d-50c0a7ca5433")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "GND"
-		(at 0 2.2 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a71f2809-3620-4d72-b0a4-e3b530e29a99")
 		(effects
 			(font
 				(size 1 1)
@@ -67,13 +55,13 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 	(fp_line
 		(start -0.5 0)
 		(end 0.5 0)
 		(stroke
-			(width 0.01)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "c56ba4c3-288c-46ed-a70f-c99da61d6916")
@@ -82,8 +70,8 @@
 		(start 0 -0.5)
 		(end 0 0.5)
 		(stroke
-			(width 0.01)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "387d62cb-bed6-4a7c-8db9-24b805f6c65c")
@@ -92,10 +80,10 @@
 		(center 0 0)
 		(end 0.5 0)
 		(stroke
-			(width 0.01)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0627c765-bc20-4f65-8bce-1cb049fc1080")
 	)
@@ -103,8 +91,8 @@
 		(start 0 0)
 		(end 0 0)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "e874e87c-e26e-4512-81be-b721ec844ca7")
@@ -123,8 +111,9 @@
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 0.1 0.1)
+		(size 0.125 0.125)
 		(layers "F.Cu")
 		(uuid "2048f868-46fa-4925-9a60-8f9ab0752ce3")
 	)
+	(embedded_fonts no)
 )

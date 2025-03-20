@@ -1,8 +1,9 @@
-(footprint "JD_PWR"
-	(version 20240108)
+(footprint "GND"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "GerberSocket for GND net (0.12 mm diameter)")
 	(property "Reference" "GS**"
 		(at 0 -2 0)
 		(unlocked yes)
@@ -16,24 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "JD_PWR"
+	(property "Value" "GND"
 		(at 0 3.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cdf8b040-1968-45d0-802d-50c0a7ca5433")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "JD_PWR"
-		(at 0 2.2 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a71f2809-3620-4d72-b0a4-e3b530e29a99")
 		(effects
 			(font
 				(size 1 1)
@@ -67,23 +55,23 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 	(fp_line
-		(start -1 0)
-		(end 1 0)
+		(start -0.5 0)
+		(end 0.5 0)
 		(stroke
-			(width 0.01)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "c56ba4c3-288c-46ed-a70f-c99da61d6916")
 	)
 	(fp_line
-		(start 0 -1)
-		(end 0 1)
+		(start 0 -0.5)
+		(end 0 0.5)
 		(stroke
-			(width 0.01)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "387d62cb-bed6-4a7c-8db9-24b805f6c65c")
@@ -92,22 +80,22 @@
 		(center 0 0)
 		(end 0.5 0)
 		(stroke
-			(width 0.01)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "abb3b474-f79a-4a3c-8c71-0552790ff959")
+		(uuid "0627c765-bc20-4f65-8bce-1cb049fc1080")
 	)
 	(fp_line
 		(start 0 0)
 		(end 0 0)
 		(stroke
-			(width 0.11)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "User.1")
-		(uuid "7462b388-819f-4d76-a25e-9583385d3511")
+		(uuid "e874e87c-e26e-4512-81be-b721ec844ca7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.2 0)
@@ -123,8 +111,9 @@
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 0.1 0.1)
+		(size 0.125 0.125)
 		(layers "F.Cu")
-		(uuid "dec68ec0-10a8-4576-a987-55b9d0f0c21c")
+		(uuid "2048f868-46fa-4925-9a60-8f9ab0752ce3")
 	)
+	(embedded_fonts no)
 )
