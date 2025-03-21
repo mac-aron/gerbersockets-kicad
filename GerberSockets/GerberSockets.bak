@@ -355,7 +355,7 @@
 			)
 		)
 		(symbol "SWCLK_1_1"
-			(text "Jacdac power Gerber socket"
+			(text "SWCLK line Gerber socket"
 				(at 0 -4.064 0)
 				(effects
 					(font
@@ -426,7 +426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for SWDIO line [flasher]"
+		(property "Description" "Gerber socket for SWDIO line [programmer]"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -451,7 +451,7 @@
 			)
 		)
 		(symbol "SWDIO~_1_1"
-			(text "Jacdac power Gerber socket"
+			(text "SWDIO line Gerber socket [programmer]"
 				(at 0 -4.064 0)
 				(effects
 					(font
@@ -547,7 +547,7 @@
 			)
 		)
 		(symbol "SWDIO~^_1_1"
-			(text "Jacdac power Gerber socket"
+			(text "SWDIO line Gerber socket [target]"
 				(at 0 -4.064 0)
 				(effects
 					(font
@@ -643,7 +643,7 @@
 			)
 		)
 		(symbol "USB_D_N_1_1"
-			(text "Jacdac power Gerber socket"
+			(text "USB data negative Gerber socket"
 				(at 0 -4.064 0)
 				(effects
 					(font
@@ -739,7 +739,7 @@
 			)
 		)
 		(symbol "USB_D_P_1_1"
-			(text "Jacdac power Gerber socket"
+			(text "USB data positive Gerber socket"
 				(at 0 -4.064 0)
 				(effects
 					(font
@@ -810,7 +810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gerber socket for flashing reset line"
+		(property "Description" "Gerber socket for reset line"
 			(at 0 -9.144 0)
 			(do_not_autoplace)
 			(effects
@@ -835,7 +835,7 @@
 			)
 		)
 		(symbol "nRST_1_1"
-			(text "Jacdac power Gerber socket"
+			(text "Reset line Gerber socket\n"
 				(at 0 -4.064 0)
 				(effects
 					(font
