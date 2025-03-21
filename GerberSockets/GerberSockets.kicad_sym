@@ -288,6 +288,102 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "RESET"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "GS"
+			(at 0 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GerberSockets:RESET"
+			(at 0 -6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gerber socket for reset line"
+			(at 0 -9.144 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RESET_0_1"
+			(arc
+				(start 6.35 -2.54)
+				(mid 3.7874 0)
+				(end 6.35 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RESET_1_1"
+			(text "Reset line Gerber socket\n"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 3.81)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SWCLK"
 		(pin_numbers
 			(hide yes)
@@ -751,102 +847,6 @@
 				(at 0 0 0)
 				(length 3.81)
 				(name "USB_D_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "nRST"
-		(pin_numbers
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(property "Reference" "GS"
-			(at 0 3.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "nRST"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "GerberSockets:nRST"
-			(at 0 -6.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gerber socket for reset line"
-			(at 0 -9.144 0)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "nRST_0_1"
-			(arc
-				(start 6.35 -2.54)
-				(mid 3.7874 0)
-				(end 6.35 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "nRST_1_1"
-			(text "Reset line Gerber socket\n"
-				(at 0 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 3.81)
-				(name "nRST"
 					(effects
 						(font
 							(size 1.27 1.27)

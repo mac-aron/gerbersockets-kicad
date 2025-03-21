@@ -1,9 +1,9 @@
-(footprint "nRST"
+(footprint "RESET"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "GerberSocket for nRST net (0.17 mm diameter)")
+	(descr "GerberSocket for RESET net (0.17 mm diameter)")
 	(property "Reference" "GS**"
 		(at 0 -2 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "nRST"
+	(property "Value" "RESET"
 		(at 0 3.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
