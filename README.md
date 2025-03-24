@@ -16,7 +16,7 @@ Symbols and footprint were created for the following nets.
 - [x] `SWCLK`: diameter of 0.14 mm
 - [x] `SWDIO~`: diameter of 0.15 mm - see below
 - [x] `SWDIO~^`: diameter of 0.16 mm - see below
-- [x] `nRST`: diameter of 0.17 mm
+- [x] `RESET`: diameter of 0.17 mm
 - [x] `USB_D_P`: diameter of 0.18 mm
 - [x] `USB_D_N`: diameter of 0.19 mm
 
