@@ -115,5 +115,41 @@
 		(layers "F.Cu")
 		(uuid "2048f868-46fa-4925-9a60-8f9ab0752ce3")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "25db3a62-8f13-4cfa-a89a-97bcdcaf84f0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.495722 -0.069541) (xy 0.46194 -0.19562) (xy 0.396677 -0.308659) (xy 0.304381 -0.400955) (xy 0.191342 -0.466218)
+				(xy 0.065263 -0.5) (xy -0.065263 -0.5) (xy -0.191342 -0.466218) (xy -0.304381 -0.400955) (xy -0.396677 -0.308659)
+				(xy -0.46194 -0.19562) (xy -0.495722 -0.069541) (xy -0.495722 0.060985) (xy -0.46194 0.187064) (xy -0.396677 0.300103)
+				(xy -0.304381 0.392399) (xy -0.191342 0.457662) (xy -0.065263 0.491444) (xy 0.065263 0.491444) (xy 0.191342 0.457662)
+				(xy 0.304381 0.392399) (xy 0.396677 0.300103) (xy 0.46194 0.187064) (xy 0.495722 0.060985)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
